@@ -137,6 +137,8 @@ df = df[(df["tags"] == "") | (df["Scene_x"] == "") | (df["Scene_y"] == "") | (df
 
 # 将”tags”列中的值为”nan”的行替换为空字符串
 df.loc[df["tags"] == "nan", ["tags"]] = ""
+# 将”tags”列中的值为”NG”的行替换为空字符串
+df.loc[df["tags"] == "NG", ["tags"]] = ""
 # 将”Scene_x”列中的值为”nan”的行替换为空字符串
 df.loc[df["Scene_x"] == "nan", ["Scene_x"]] = ""
 # 将”Scene_y”列中的值为”nan”的行替换为空字符串v
