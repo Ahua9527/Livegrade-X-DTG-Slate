@@ -4,28 +4,25 @@
 
 ---
 
-- ### 使用环境
+- ## 使用环境
 
       Python 3.9.6+
-
       Pandas
 
-1. ## 如何使用？
-    - **命令行**
+- ## 如何使用？
+     ### 方法一
 
-      >python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv
+       python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv
 
-    - #### [懒人快捷指令](https://www.icloud.com/shortcuts/9efbba52180a42ec971afc7519c2946d)（⬅️点我）
-
-      需MacOS 12 Monterey +
+    ### 方法二
+    #### [懒人快捷指令](https://www.icloud.com/shortcuts/9efbba52180a42ec971afc7519c2946d)（⬅️点我需MacOS 12 Monterey +）
+         
 
 2. ## Livegrade注意事项
-   + 在Livegrade中需要使用Rating来标记“过条”，“保条”，“废条”
-      - 使用🌟🌟🌟🌟🌟来表示过条（Circle）
-      - 使用🌟🌟🌟来表示保条（KEEP）
-      - 使用🌟来表示废条（NG）
-
-         > 废条（NG）可不表示
+   - #### 在Livegrade中需要使用Rating来标记“过条”，“保条”，“废条”
+      - #### 使用🌟🌟🌟🌟🌟来表示过条 Circle
+      - #### 使用🌟🌟🌟来表示保条 KEEP
+      - #### 使用🌟来表示废条 NG
 
 - ## 阅读理解
 
