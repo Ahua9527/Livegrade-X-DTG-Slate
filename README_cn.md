@@ -1,8 +1,10 @@
 # Livegrade-X-DTG-Slate
 
 一个用与比对Livegrade场记信息与DTG-Slate场记信息的Python
-
 ---
+
+[English](./README.md) | 中文
+
 
 - ## 使用环境
 
