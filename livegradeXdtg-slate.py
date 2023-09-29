@@ -82,7 +82,7 @@ def livegrade_csv(livegrade_file, livegrade_convert):
     df = pd.read_csv(livegrade_file, usecols=["Name / Clip Identifier", "Scene", "Shot", "Take", "Rating"])
     
     # 将Rating列的值进行转换
-    df["Rating"] = df["Rating"].map({3: "KEEP", 5: "Circle"})
+    df["Rating"] = df["Rating"].map({1: "NG", 3: "KEEP", 5: "Circle"})
     
     # 将DataFrame写入到输出文件中
     df.to_csv(livegrade_convert, index=False)
@@ -138,7 +138,7 @@ df = df[(df["tags"] == "") | (df["Scene_x"] == "") | (df["Scene_y"] == "") | (df
 # 将”tags”列中的值为”nan”的行替换为空字符串
 df.loc[df["tags"] == "nan", ["tags"]] = ""
 # 将”tags”列中的值为”NG”的行替换为空字符串
-df.loc[df["tags"] == "NG", ["tags"]] = ""
+# df.loc[df["tags"] == "NG", ["tags"]] = ""
 # 将”Scene_x”列中的值为”nan”的行替换为空字符串
 df.loc[df["Scene_x"] == "nan", ["Scene_x"]] = ""
 # 将”Scene_y”列中的值为”nan”的行替换为空字符串v
