@@ -6,16 +6,16 @@
 
 - ### 使用环境
 
-      > Python 3.9.6+
+      Python 3.9.6+
 
-      > Pandas
+      Pandas
 
 1. ## 如何使用？
-   1. **命令行**
+    - **命令行**
 
-      `python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv`
+      >python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv
 
-   1. #### [懒人快捷指令](https://www.icloud.com/shortcuts/9efbba52180a42ec971afc7519c2946d)（⬅️点我）
+    - #### [懒人快捷指令](https://www.icloud.com/shortcuts/9efbba52180a42ec971afc7519c2946d)（⬅️点我）
 
       需MacOS 12 Monterey +
 
