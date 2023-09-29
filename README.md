@@ -4,20 +4,30 @@
 
 ---
 
-- ## [食用链接](https://www.icloud.com/shortcuts/9efbba52180a42ec971afc7519c2946d)
+- ### 使用环境
 
----
+      > Python 3.9.6+
 
-+ ## 注意事项
+      > Pandas
 
-   在Livegrade中需要使用Rating来标记“过条”，“保条”，“废条”
+1. ## 如何使用？
+   1. **命令行**
 
-   - 使用🌟🌟🌟🌟🌟来表示过条
-   - 使用🌟🌟🌟来表示保条
-   - 废条可不表示
+      `python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv`
 
----
+   1. #### [懒人快捷指令](https://www.icloud.com/shortcuts/9efbba52180a42ec971afc7519c2946d)（⬅️点我）
+
+      需MacOS 12 Monterey +
+
+2. ## Livegrade注意事项
+   + 在Livegrade中需要使用Rating来标记“过条”，“保条”，“废条”
+      - 使用🌟🌟🌟🌟🌟来表示过条（Circle）
+      - 使用🌟🌟🌟来表示保条（KEEP）
+      - 使用🌟来表示废条（NG）
+
+         > 废条（NG）可不表示
 
 - ## 阅读理解
 
-![Image.png](https://github.com/Ahua9527/Livegrade-X-DTG-Slate/blob/37e6422bc9fc1ebf201ad6e00a06247f40979b4f/Preview/SCR-20230928-cxqq.png)
+![Image.png](https://res.craft.do/user/full/69e79654-3209-1fb2-a0b1-6e6353d11c7f/doc/F754BB7C-893F-4F4F-A544-2B31F659DD86/FC20AE30-06F7-45DD-8D89-60AE7284EF0E_2/vxRPf1pbP0zpsa82vPrvBDDNqwpZT3Hkxe39xwTTDfAz/Image.png)
+
