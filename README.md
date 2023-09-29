@@ -3,7 +3,7 @@
 一个用与比对Livegrade场记信息与DTG-Slate场记信息的Python
 ---
 
-[English](./README.md) | 中文
+中文 | [English](./README_en.md) 
 
 
 - ## 使用环境
@@ -11,7 +11,7 @@
       Python 3.9.6+
       Pandas
 
-- ## 如何使用？
+- ## 如何使用
      ### 方法一
 
        python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv
