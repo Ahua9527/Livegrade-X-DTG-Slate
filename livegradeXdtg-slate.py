@@ -23,6 +23,9 @@ args = parser.parse_args()
 slate_file = args.slate_file
 livegrade_file = args.livegrade_file
 
+# 指定输出文件的路径和文件名为”~/output.csv”
+output_file = "~/Desktop/output.csv"
+
 
 
 
@@ -157,9 +160,6 @@ if args.sort_by_tags:
 if args.sort_by_clip_identifier:
     df = df.sort_values(by="Name / Clip Identifier")
 
-
-# 指定输出文件的路径和文件名为”~/output.csv”
-output_file = "~/Desktop/output.csv"
 
 # 将DataFrame保存为CSV文件，去除索引列
 df.to_csv(output_file, index=False)
