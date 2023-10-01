@@ -8,7 +8,7 @@
 
 ## 使用环境
 `Python 3.9.6+`  
-`Pandas`
+`Pandas` pip3 install pandas
 
 ## 如何使用
 
