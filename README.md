@@ -34,7 +34,7 @@ python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
          
 ## 快捷指令如何更新`livegradeXdtg-slate.py`
 #### 打开`Finder`在当前用户根目录下显示隐藏文件后删除`.Script`文件夹
-#### 或在终端输入下方命令，
+#### 或在终端输入下方命令
 ```console
 rm -rf ~/.Script
 ```
