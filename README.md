@@ -26,7 +26,7 @@ python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
 
 #### 方法二
 #### [懒人快捷指令](https://www.icloud.com/shortcuts/0f372bfca14f4f2ab54e81ce25e77d0b)
-###### `👆点我需MacOS 12 Monterey +`
+###### `👆点我需要MacOS 12 Monterey +`
 ###### `第一次使用需要联网安装相应的依赖和脚本文件，可能会比较慢请耐心等待`
          
 
