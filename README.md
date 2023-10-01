@@ -22,10 +22,10 @@ pip3 install pandas
 ```console
 python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
 ```
--`-s`  指定 `DTG-Slate CSV` 输入文件路径  
--`-l`  指定 `Livegrade CSV` 输入文件路径  
--`-c`  指定 `clip_identifier` 列进行排序   
--`-t`  指定 `tags` 列进行排序  
+`-s`  指定 `DTG-Slate CSV` 输入文件路径  
+`-l`  指定 `Livegrade CSV` 输入文件路径  
+`-c`  指定 `clip_identifier` 列进行排序   
+`-t`  指定 `tags` 列进行排序  
 
 #### 方法二
 #### [懒人快捷指令](https://www.icloud.com/shortcuts/e2d6508b8c064e93aeefb7dd5d5bc5bf)

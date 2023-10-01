@@ -22,10 +22,10 @@ pip3 install pandas
 ```console
 python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
 ```
-- `-s`  Specify the `DTG-Slate CSV` input file path  
-- `-l`  Specify the `Livegrade CSV` input file path  
-- `-c`  Specify the `clip_identifier` column to sort     
-- `-t`  Specify the `tags` column to sort  
+`-s`  Specify the `DTG-Slate CSV` input file path  
+`-l`  Specify the `Livegrade CSV` input file path  
+`-c`  Specify the `clip_identifier` column to sort     
+`-t`  Specify the `tags` column to sort  
 
 #### Method two
 #### [Lazy Shortcuts](https://www.icloud.com/shortcuts/e2d6508b8c064e93aeefb7dd5d5bc5bf)
