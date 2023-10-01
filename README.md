@@ -17,7 +17,7 @@
        python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv
 
     ### 方法二
-    #### [懒人快捷指令](https://www.icloud.com/shortcuts/f14f2c4f9e194c9db0f179eef0b825de)（👈点我需MacOS 12 Monterey +）
+    #### [懒人快捷指令](https://www.icloud.com/shortcuts/0f372bfca14f4f2ab54e81ce25e77d0b)（👈点我需MacOS 12 Monterey +）
          
 
 - ## Livegrade注意事项
