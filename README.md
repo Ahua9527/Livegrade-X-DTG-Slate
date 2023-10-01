@@ -7,24 +7,23 @@
 
 
 ## 使用环境
-`
-Python 3.9.6+
-`  
-`
-Pandas
-`
+`Python 3.9.6+`  
+`Pandas`
+
 ## 如何使用
+
 #### 方法一
 ```console
-python3 livegradeXdtg-slate.py -fs slate.csv -fl livegrade.csv
+python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
 ```
--`-s`  指定 `DTG-Slate CSV` 文件路径  
--`-l`  指定 `Livegrade CSV` 文件路径  
--`-c`  使用 `clip_identifier` 列进行排序   
--`-t`  使用 `tags` 列进行排序  
+-`-s`  指定 `DTG-Slate CSV` 输入文件路径  
+-`-l`  指定 `Livegrade CSV` 输入文件路径  
+-`-c`  指定 `clip_identifier` 列进行排序   
+-`-t`  指定 `tags` 列进行排序  
 
 #### 方法二
-#### [懒人快捷指令](https://www.icloud.com/shortcuts/0f372bfca14f4f2ab54e81ce25e77d0b)（👈点我需MacOS 12 Monterey +）
+#### [懒人快捷指令](https://www.icloud.com/shortcuts/0f372bfca14f4f2ab54e81ce25e77d0b)
+###### `👆点我需MacOS 12 Monterey +`
 ###### `第一次使用需要联网安装相应的依赖和脚本文件，可能会比较慢请耐心等待`
          
 
