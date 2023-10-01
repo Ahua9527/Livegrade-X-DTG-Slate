@@ -8,10 +8,13 @@
 
 ## 使用环境
 `Python 3.9.6+`  
-`Pandas` pip3 install pandas
+### 使用依赖
+`Pandas`
+```console
+pip3 install pandas
+```
 
 ## 如何使用
-
 #### 方法一
 ```console
 python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
