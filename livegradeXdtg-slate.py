@@ -14,7 +14,8 @@ parser = argparse.ArgumentParser(description='指定输入文件路径')
 # 添加命令行参数
 parser.add_argument('-fs', '--slate_file', type=str, help='指定 slate 文件路径')
 parser.add_argument('-fl', '--livegrade_file', type=str, help='指定 livegrade 文件路径')
-
+parser.add_argument('-t', '--sort_by_tags', action='store_true', help='按照tags列进行排序')
+parser.add_argument('-c', '--sort_by_clip_identifier', action='store_true', help='按照 Name / Clip Identifier列进行排序')
 # 解析命令行参数
 args = parser.parse_args()
 
@@ -141,7 +142,7 @@ df.loc[df["tags"] == "nan", ["tags"]] = ""
 # df.loc[df["tags"] == "NG", ["tags"]] = ""
 # 将”Scene_x”列中的值为”nan”的行替换为空字符串
 df.loc[df["Scene_x"] == "nan", ["Scene_x"]] = ""
-# 将”Scene_y”列中的值为”nan”的行替换为空字符串v
+# 将”Scene_y”列中的值为”nan”的行替换为空字符串
 df.loc[df["Scene_y"] == "nan", ["Scene_y"]] = ""
 # 将”Shot_x”列中的值为”nan”的行替换为空字符串
 df.loc[df["Shot_x"] == "nan", ["Shot_x"]] = ""
@@ -160,7 +161,12 @@ df.loc[df["Shot_x"] == df["Shot_y"], ["Shot_x", "Shot_y"]] = ""
 # 将”Take_x”和”Take_y”列中值相同的行替换为空值
 df.loc[df["Take_x"] == df["Take_y"], ["Take_x", "Take_y"]] = ""
 
-
+# 通过-t参数指定按照tags列进行排序
+if args.sort_by_tags:
+    df = df.sort_values(by=["tags", "Name / Clip Identifier"])
+# 通过-c参数指定按照clip_identifier列进行排序    
+if args.sort_by_clip_identifier:
+    df = df.sort_values(by="Name / Clip Identifier")
 
 
 # 将DataFrame保存为CSV文件，去除索引列
