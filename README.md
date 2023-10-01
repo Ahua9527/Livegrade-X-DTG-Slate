@@ -5,6 +5,9 @@
 
 中文 | [English](./README_en.md) 
 
+## 阅读理解
+
+![Image.png](https://res.craft.do/user/full/69e79654-3209-1fb2-a0b1-6e6353d11c7f/doc/F754BB7C-893F-4F4F-A544-2B31F659DD86/FC20AE30-06F7-45DD-8D89-60AE7284EF0E_2/vxRPf1pbP0zpsa82vPrvBDDNqwpZT3Hkxe39xwTTDfAz/Image.png)
 
 ## 使用环境
 `Python 3.9.6+`  
@@ -29,16 +32,17 @@ python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
 ###### `👆点我需要MacOS 12 Monterey +`
 ###### `第一次使用需要联网安装相应的依赖和脚本文件，可能会比较慢请耐心等待`
          
-
+## 快捷指令如何更新`livegradeXdtg-slate.py`
+#### 打开`Finder`在当前用户根目录下显示隐藏文件后删除`.Script`文件夹
+#### 或在终端输入下方命令，
+```console
+rm -rf ~/.Script
+```
 ## Livegrade注意事项
 - ### 在Livegrade中需要使用Rating来标记“过条”，“保条”，“废条”
 - #### 使用🌟🌟🌟🌟🌟来表示过条 Circle
 - #### 使用🌟🌟🌟来表示保条 KEEP
 - #### 使用🌟来表示废条 NG
-
-## 阅读理解
-
-![Image.png](https://res.craft.do/user/full/69e79654-3209-1fb2-a0b1-6e6353d11c7f/doc/F754BB7C-893F-4F4F-A544-2B31F659DD86/FC20AE30-06F7-45DD-8D89-60AE7284EF0E_2/vxRPf1pbP0zpsa82vPrvBDDNqwpZT3Hkxe39xwTTDfAz/Image.png)
 
 ## 特别感谢
 > [@WheheoHu](https://github.com/WheheoHu)·[@a12910](https://github.com/a12910)
