@@ -28,7 +28,7 @@ python3 livegradeXdtg-slate.py -t -s slate.csv -l livegrade.csv
 - `-t`  Specify the `tags` column to sort  
 
 #### Method two
-#### [Lazy Shortcuts](https://www.icloud.com/shortcuts/0f372bfca14f4f2ab54e81ce25e77d0b)
+#### [Lazy Shortcuts](https://www.icloud.com/shortcuts/e2d6508b8c064e93aeefb7dd5d5bc5bf)
 ###### `👆Click I need MacOS 12 Monterey +`
 ###### `The first use requires online installation of the corresponding dependencies and script files, which may be slow. Please wait patiently.`       
 ## How to update shortcuts`livegradeXdtg-slate.py`
