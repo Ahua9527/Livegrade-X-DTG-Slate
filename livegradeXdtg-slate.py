@@ -144,11 +144,11 @@ df.loc[df["Take_y"] == "nan", ["Take_y"]] = ""
 # 将”tags”和”Rating”列中值相同的行替换为空值
 df.loc[df["tags"] == df["Rating"], ["tags", "Rating"]] = ""
 # 将”Scene_x”和”Scene_y”列中值相同的行替换为空值
-df.loc[df["Scene_x"] == df["Scene_y"], ["Scene_x", "Scene_y"]] = ""
+df.loc[df["Scene_x"].str.upper() == df["Scene_y"].str.upper(), ["Scene_x", "Scene_y"]] = ""
 # 将”Shot_x”和”Shot_y”列中值相同的行替换为空值
-df.loc[df["Shot_x"] == df["Shot_y"], ["Shot_x", "Shot_y"]] = ""
+df.loc[df["Shot_x"].str.upper() == df["Shot_y"].str.upper(), ["Shot_x", "Shot_y"]] = ""
 # 将”Take_x”和”Take_y”列中值相同的行替换为空值
-df.loc[df["Take_x"] == df["Take_y"], ["Take_x", "Take_y"]] = ""
+df.loc[df["Take_x"].str.upper() == df["Take_y"].str.upper(), ["Take_x", "Take_y"]] = ""
 
 # 通过-t参数指定按照tags列进行排序
 if args.sort_by_tags:
