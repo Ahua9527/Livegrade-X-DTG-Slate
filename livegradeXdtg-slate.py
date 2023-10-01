@@ -12,8 +12,8 @@ import argparse
 parser = argparse.ArgumentParser(description='指定输入文件路径')
 
 # 添加命令行参数
-parser.add_argument('-fs', '--slate_file', type=str, help='指定 slate 文件路径')
-parser.add_argument('-fl', '--livegrade_file', type=str, help='指定 livegrade 文件路径')
+parser.add_argument('-s', '--slate_file', type=str, help='指定 slate 文件路径')
+parser.add_argument('-l', '--livegrade_file', type=str, help='指定 livegrade 文件路径')
 parser.add_argument('-t', '--sort_by_tags', action='store_true', help='按照tags列进行排序')
 parser.add_argument('-c', '--sort_by_clip_identifier', action='store_true', help='按照 Name / Clip Identifier列进行排序')
 # 解析命令行参数
