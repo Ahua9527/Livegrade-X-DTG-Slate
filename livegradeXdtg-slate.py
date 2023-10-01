@@ -26,17 +26,6 @@ livegrade_file = args.livegrade_file
 
 
 
-
-# 指定输出文件
-livegrade_convert = "~/.Script/livegrade_convert.csv"
-
-# 指定输出文件的路径和文件名为”~/output.csv”
-output_file = "~/Desktop/output.csv"
-
-
-
-
-
 #定义一个输入函数和一个输出函数
 def slate_csv(slate_file, slate_convert):
     # 读取CSV文件并将分隔符从;修改为,
