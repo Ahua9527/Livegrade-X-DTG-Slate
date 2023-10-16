@@ -7,7 +7,7 @@
 
 ## 阅读理解
 
-![SCR-20230928-cxqq](https://cdn.statically.io/gh/Ahua9527/picx-images-hosting@master/SCR-20230928-cxqq.1o96fmn4mzy8.webp)
+![SCR-20230928-cxqq](https://cdn.statically.io/gh/Ahua9527/picx-images-hosting@master/20231016/SCR-20230928-cxqq.3m0ekh6f4eg0.webp)
 
 ## 使用环境
 `Python 3.9.6+`  
