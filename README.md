@@ -7,7 +7,7 @@
 
 ## 阅读理解
 
-![Image.png](https://res.craft.do/user/full/69e79654-3209-1fb2-a0b1-6e6353d11c7f/doc/F754BB7C-893F-4F4F-A544-2B31F659DD86/FC20AE30-06F7-45DD-8D89-60AE7284EF0E_2/vxRPf1pbP0zpsa82vPrvBDDNqwpZT3Hkxe39xwTTDfAz/Image.png)
+![SCR-20230928-cxqq](https://cdn.statically.io/gh/Ahua9527/picx-images-hosting@master/SCR-20230928-cxqq.1o96fmn4mzy8.webp)
 
 ## 使用环境
 `Python 3.9.6+`  
